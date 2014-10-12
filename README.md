@@ -1,14 +1,16 @@
 #Transform Fit OBJ
 Transforms an OBJ file to fit within the 2x2x2 culling cube.
 
-`Usage: node index.js input_file output_file`
+`npm install -g transform-fit-obj`
+
+`Usage: transform-fit-obj index.js input_file output_file`
 
 Before:
 
 ![before](before.png)
 
 ```
-./index.js dragon.obj dragon2.obj
+transform-fit-obj dragon.obj dragon2.obj
 Before transforming
 x: -7.0467 <---> 7.0467
 y: 0 <---> 9.9399
@@ -35,7 +37,7 @@ After:
 ![after](after.png)
 
 ```
-node index.js dragon2.obj dragon3.obj
+transform-fit-obj dragon2.obj dragon3.obj
 Before transforming
 x: -1 <---> 1
 y: -0.7052875814210907 <---> 0.7052875814210907

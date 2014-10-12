@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 if (process.argv.length !== 4) {
-  console.error("Usage: ./index.js input_file output_file");
+  console.error("Usage: transform-fit-obj input_file output_file");
   process.exit(1);
 }
 
