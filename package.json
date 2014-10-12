@@ -1,0 +1,38 @@
+{
+  "name": "transform-fit-obj",
+  "version": "0.0.0",
+  "description": "Transforms an OBJ file to fit within the 2x2x2 culling cube.",
+  "bin": {
+    "fixOBJ": "./index.js"
+  },
+  "dependencies": {
+    "array-to-wavefront-obj": "~0.1.0",
+    "colors": "~1.0.3",
+    "webgl-obj-loader": "~0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nickdesaulniers/transform-fit-obj.git"
+  },
+  "keywords": [
+    "obj",
+    "cull",
+    "cube",
+    "file",
+    "format",
+    "translate",
+    "scale",
+    "transform"
+  ],
+  "author": "Nick Desaulniers",
+  "license": "Beerware",
+  "bugs": {
+    "url": "https://github.com/nickdesaulniers/transform-fit-obj/issues"
+  },
+  "homepage": "https://github.com/nickdesaulniers/transform-fit-obj"
+}
+
