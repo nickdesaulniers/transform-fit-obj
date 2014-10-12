@@ -20,10 +20,13 @@ The mesh vertices can be translated by:
 The mesh vertices can be scaled by:
 [ 0.14191039777484496, 0.2012092676988702, 0.3173293561387364 ]
 
+The mesh will be scaled by:
+[ 0.14191039777484496, 0.14191039777484496, 0.14191039777484496 ]
+
 After transforming
 x: -1 <---> 1
-y: -1 <---> 1
-z: -1 <---> 1
+y: -0.7052875814210907 <---> 0.7052875814210907
+z: -0.44720223650786894 <---> 0.44720223650786894
 Saved transformed mesh to dragon2.obj
 ```
 
@@ -35,7 +38,8 @@ After:
 node index.js dragon2.obj dragon3.obj
 Before transforming
 x: -1 <---> 1
-y: -1 <---> 1
-z: -1 <---> 1
+y: -0.7052875814210907 <---> 0.7052875814210907
+z: -0.44720223650786894 <---> 0.44720223650786894
 no transforming needed
 ```
+

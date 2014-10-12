@@ -48,6 +48,13 @@ fs.readFile(process.argv[2], opt, function (err, data){
 
   console.log('\nThe mesh vertices can be scaled by:'.yellow);
   console.log(scaleVector);
+
+  // Uniform scaling
+  var mostScaling = Math.min.apply(null, scaleVector);
+  scaleVector = [mostScaling, mostScaling, mostScaling];
+
+  console.log('\nThe mesh will be scaled by:'.yellow);
+  console.log(scaleVector);
   console.log();
 
   transformVertices(mesh.vertices, translationVector, scaleVector);
