@@ -1,6 +1,6 @@
 {
   "name": "transform-fit-obj",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Transforms an OBJ file to fit within the 2x2x2 culling cube.",
   "bin": "./index.js",
   "dependencies": {
